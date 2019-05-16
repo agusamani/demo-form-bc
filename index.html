@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <title>Form</title>
+</head>
+<body>
+    <h1 id="tittle">New Client</h1>
+      <form id="form">
+          <label id="name-label">Name:</label>
+          <input id="name" type="text" placeholder="Enter your Name" >
+          <label id="surname-label">Surname:</label>
+          <input id="surname" type="text" placeholder="Enter your Surame" >
+          <label id="dni-label">DNI:</label>
+          <input id="dni" type="number" placeholder="Enter your DNI" >
+          <label id="balance-label">Balance:</label>
+          <input id="balance" type="number" placeholder="Enter your Balance" >
+          <input id="submit" type="submit" name="submit" value="Submit">
+      </form>
+      <div id="client-list">
+        <h1>Client:</h1>
+          <ul></ul>
+      </div>
+</body>
+<script src="app.js"></script>
+</html>

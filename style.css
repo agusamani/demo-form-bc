@@ -1,0 +1,33 @@
+body {
+    padding-left: 20px;
+}
+
+#form {
+    display:flex;
+    flex-direction: column;
+}
+
+input {
+    width: 180px;
+    padding: 8px 8px;
+    border: 1px solid black;
+    display:inline-block;
+    box-sizing: border-box;
+}
+
+label {
+    padding: 5px 0 5px 2px;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+#submit {
+    margin-top: 10px;
+}
